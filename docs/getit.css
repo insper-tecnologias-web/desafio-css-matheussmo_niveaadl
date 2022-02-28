@@ -33,7 +33,7 @@ body {
   position: relative;
   display: block;
   padding: 10px 15px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   
   font-size: 1rem;
   overflow: hidden;
@@ -41,7 +41,7 @@ body {
   border-width: 0;
   outline: none;
   border-radius: 5px;
-  box-shadow: 3px 3px 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.3);
 
   background-color: #f7d736;
 
@@ -81,7 +81,6 @@ body {
 }
 
 .appbar{
-  
     display: flex;
     justify-content:flex-start;
     align-items: center;
@@ -97,8 +96,8 @@ body {
 }
 
 .subtitle {
-  font-size:140%;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:130%;
+  font-family:Arial, Helvetica, sans-serif;
   margin-left: 1rem;
 }
 
@@ -125,7 +124,7 @@ body {
 .form-card-title{
   font-size: 2rem;
   margin-top: 10px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   border:0;
   transition: .3s box-shadow;
 }
@@ -133,7 +132,7 @@ body {
 .autoresize{
   font-size: 1rem;
   margin-top: 10px;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family:Arial, Helvetica, sans-serif;
   border:0;
   resize: none;
   transition: .3s box-shadow;
@@ -160,7 +159,7 @@ body {
   justify-content: space-evenly;
   flex-direction: column;
   flex-wrap: wrap;
-  box-shadow: 0 1px 5px 4px rgba(0, 0, 0, 0.6);
+  box-shadow: 0 1px 10px 4px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s;
 }
 
